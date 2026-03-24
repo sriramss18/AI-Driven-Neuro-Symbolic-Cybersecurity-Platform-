@@ -1,15 +1,15 @@
-# 🧠🔐 An AI-Driven Neuro-Symbolic Cybersecurity Platform for Threat Intelligence, IOC Validation, and MITRE ATTACK Mapping
+# An AI-Driven Neuro-Symbolic Cybersecurity Platform for Threat Intelligence, IOC Validation, and MITRE ATTACK Mapping
 A hybrid AI-powered system that combines **Large Language Models (LLaMA3:8B)** with **ontology-based symbolic reasoning** to perform automated, explainable Cyber Threat Intelligence (CTI) analysis.
 
 ---
 
-## 🚀 Overview  
+## Overview  
 The **Neuro-Symbolic Cyber Threat Analyzer** extracts TTPs, IOCs, malware families, threat actors, CVEs, and CAPEC patterns using a local LLM, and validates them through a custom **OWL-based CTI ontology** using *Owlready2*.  
 It generates **attack summaries, risk scores, defensive actions (MITRE D3FEND)** and visualizes results via a Streamlit dashboard.
 
 ---
 
-## 🔍 Key Features  
+## Key Features  
 - **LLM-Based Extraction (LLaMA3:8B – Ollama)**
   - ATT&CK Tactics & Techniques  
   - Malware families  
@@ -39,7 +39,7 @@ It generates **attack summaries, risk scores, defensive actions (MITRE D3FEND)**
 
 ---
 
-## 📁 Project Structure  
+## Project Structure  
 - **├── src/**
 - **├────── app.py**
 - **├────── llm_client.py**
@@ -51,7 +51,7 @@ It generates **attack summaries, risk scores, defensive actions (MITRE D3FEND)**
 
 ---
 
-## 🧩 Architecture  
+## Architecture  
 1. **User Input** (CTI text)  
 2. **LLM Extraction** via LLaMA3  
 3. **Ontology Mapping** (NS-CyberOnt)  
@@ -61,7 +61,7 @@ It generates **attack summaries, risk scores, defensive actions (MITRE D3FEND)**
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 - **Languages:** Python  
 - **Frameworks:** Streamlit  
 - **AI Models:** LLaMA3:8B (Ollama)  
@@ -72,7 +72,7 @@ It generates **attack summaries, risk scores, defensive actions (MITRE D3FEND)**
 
 ---
 
-## 🧪 Running the App  
+## Running the App  
 Install dependencies:
 
 ```bash
@@ -85,7 +85,7 @@ streamlit run app.py
 
 ---
 
-## 🛡️ Risk Scoring
+## Risk Scoring
 Risk score combines:
   - **Technique severity**
   - **Threat actor sophistication**
@@ -98,7 +98,7 @@ Critical | High | Medium | Low
 
 ---
 
-## 🧷 Defense Recommendations
+## Defense Recommendations
 Based on MITRE D3FEND, mapped automatically using ontology reasoning.
 Examples include:
 
@@ -110,7 +110,7 @@ Examples include:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
   - **SIEM/EDR integration**
   - **Temporal reasoning in ontology**
   - **Explainable AI traces for decisions**
